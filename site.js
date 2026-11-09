@@ -2,8 +2,8 @@
 (function () {
   // Google Form that collects early-access emails (filled in when the form exists).
   var FORM = {
-    action: "",          // https://docs.google.com/forms/d/e/<id>/formResponse
-    emailField: ""       // entry.<number>
+    action: "https://docs.google.com/forms/d/e/1FAIpQLSevZOEi3wT_FnHsa-EVnIa4CAIhcqGVeeogcobAMN4aRypEVg/formResponse",
+    emailField: "entry.553038650"
   };
 
   // Auto / Manual
