@@ -33,7 +33,7 @@
       if (img) {
         var n = img.cloneNode();
         n.src = b.getAttribute('data-src');
-        n.alt = 'Generated vinyl-label cover, ' + b.getAttribute('data-name');
+        n.alt = (document.documentElement.lang === 'ru' ? 'Сгенерированная обложка: виниловый лейбл, ' : 'Generated vinyl-label cover, ') + b.getAttribute('data-name');
         img.parentNode.replaceChild(n, img);   // restarts the entry animation
         img = n;
       }
